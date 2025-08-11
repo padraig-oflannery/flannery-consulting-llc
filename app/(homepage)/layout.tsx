@@ -1,4 +1,3 @@
-import CookieConsent from "@/components/custom/CookieConsent";
 import React from "react";
 import { cookies } from "next/headers";
 import Footer from "@/components/structure/Footer";
@@ -14,7 +13,6 @@ const HomepageLayout = async ({
 
   return (
     <div>
-      <CookieConsent cookieValue={cookieValue} />
       <Header />
       {children}
       <Footer />
