@@ -24,8 +24,9 @@ const Homepage = () => {
         buttonText="Contact Us Today"
         buttonHref="/#contact-us"
       />
+      {/* 
       <ServicesList />
-      <ValuesAndPrincipals />
+      <ValuesAndPrincipals /> */}
       <Separator />
       <ContactUsSection
         title="Contact Us"

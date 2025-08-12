@@ -29,14 +29,6 @@ const Footer = () => {
             <li className="text-black font-base text-lg">Company</li>
             <li>
               <Link
-                href="/#about"
-                className="text-black/50 hover:text-black/80 transition-colors duration-200"
-              >
-                About Us
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="/#contact-us"
                 className="text-black/50 hover:text-black/80 transition-colors duration-200"
               >
