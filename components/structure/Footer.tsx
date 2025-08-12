@@ -48,11 +48,11 @@ const Footer = () => {
         <span className="text-black/50 font-base text-lg text-center sm:text-left">
           © 2025. All rights reserved.
         </span>
-        <div className="flex items-center justify-center sm:justify-end flex-row gap-4">
+        {/* <div className="flex items-center justify-center sm:justify-end flex-row gap-4">
           <Link href={appConfig.links.linkedin} target="_blank">
             <LinkedinIcon className="w-6 h-6 text-black/50 cursor-pointer hover:text-black transition-colors duration-200" />
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );
